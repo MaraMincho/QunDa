@@ -46,13 +46,24 @@
 %>
 
 <body>
-<div class="v1_70"><span class="v1_71">QanDa</span>
+<div class="v1_70">
+  <form method="post" action="Professor_mainpage.do">
+    <input type="submit" class="v1_71" value="Qunda">
+
+    <input type="submit" class="v1_163" value="글쓰기">
+    <input type="hidden" name="email" value="<%=email%>">
+    <input type="hidden" name="name" value="<%=name%>">
+    <input type="hidden" name="position" value="<%=postion%>">
+    <input type="hidden" name="Time" value="<%=Time%>">
+    <input type="hidden" name="Roomnum" value="<%=Roomnum%>">
+    <input type="hidden" name="SubName" value="<%=SubName%>">
+  </form>
   <div class="v1_72"></div>
   <div class="v1_73"></div>
   <div class="v1_74"></div>
-  <span class="v1_76"><%=Roomnum%>방번호임</span>
-  <span class="v1_77"><%=Time%>ㅅㅣ간임</span>
-  <span class="v1_165"><%=SubName%>방번호 : <%=Roomnum %></span>
+  <span class="v1_76"><%=SubName%></span>
+  <span class="v1_77"><%=Time%></span>
+  <span class="v1_165"> 방번호 : <%=Roomnum %></span>
   <span class="v1_78"><%=Ask1%></span>
   <span class="v1_90"><%=Ask2%></span>
   <span class="v1_92"><%=Ask3%></span>

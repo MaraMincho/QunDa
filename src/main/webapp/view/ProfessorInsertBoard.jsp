@@ -53,7 +53,7 @@
         <span class="v91_8"> 과목 명</span>
         <span class="v91_15">시간 </span>
         <span class="v91_16"> 방번호 </span>
-        <input type="submit" name="InsertBoard" class="v91_161" value="insert">
+        <input name="InsertBoard" onclick="CheckBoardList()" class="v91_161" value="insert">
         <input class="v91_20" type="text" name="SubjectName">
         <input class="v91_18" type="text" name="Time">
         <input class="v91_19" type="number" name="RoomNum">

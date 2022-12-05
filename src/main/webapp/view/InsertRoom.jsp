@@ -16,7 +16,9 @@
     String Time = request.getParameter("Time");
     String Roomnum = request.getParameter("Roomnum");
     String SubName = request.getParameter("SubName");
+
 %>
+
 <head>
     <link href="https://fonts.googleapis.com/css?family=Gmarket+Sans+TTF&display=swap" rel="stylesheet"/>
     <link href="./css/main.css" rel="stylesheet"/>
@@ -28,7 +30,7 @@
     <div class="v1_252"></div>
     <span class="v1_253"><%=SubName%></span>
     <span class="v1_254"><%=Roomnum%></span>
-    <form method="post" action="InsertRoom.do">
+    <form method="post" action="InsertRoom.do" name="InsertForm">
         <input type="submit" class="v1_255" value="글쓰기">
         <input type="hidden" name="email" value="<%=email%>">
         <input type="hidden" name="name" value="<%=name%>">
